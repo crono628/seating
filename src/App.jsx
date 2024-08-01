@@ -33,8 +33,8 @@ const App = () => {
         {!selectedName && (
           <div>
             <p>
-              Please search and <strong>select</strong> your name below to
-              locate your table
+              Please begin typing your name below and <strong>select</strong>{' '}
+              your name to locate your table
             </p>
             <SearchBox onSelectionChange={handleSelectionChange} />
           </div>
