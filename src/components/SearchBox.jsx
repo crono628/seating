@@ -25,9 +25,13 @@ const SearchBox = ({ onSelectionChange }) => {
       id="search-box"
       options={options}
       getOptionLabel={(option) => option.label}
-      style={{ width: 300, backgroundColor: 'white' }}
+      style={{ width: '100%', backgroundColor: 'white' }}
       renderInput={(params) => (
-        <TextField {...params} label="Search" variant="outlined" />
+        <TextField
+          {...params}
+          label="Enter your name here"
+          variant="outlined"
+        />
       )}
       onChange={(event, newValue) =>
         onSelectionChange(
