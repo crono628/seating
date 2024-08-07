@@ -4,6 +4,7 @@ import { Button, Card, Link, Paper } from '@mui/material'
 import './App.css'
 import qrCode from './assets/seatLocator.png'
 import './firebase'
+import { Footer } from './components/Footer'
 
 const App = () => {
   const [selectedName, setSelectedName] = useState(null)
@@ -77,17 +78,7 @@ const App = () => {
           )}
         </Paper>
       </Card>
-      <footer className="footer">
-        <Link
-          href="https://michaeldesantis.com/"
-          target="_blank"
-          rel="noopener"
-          underline="none"
-          sx={{ color: 'inherit', textDecoration: 'none' }}
-        >
-          md ©2024
-        </Link>
-      </footer>
+      {/* <Footer /> */}
     </>
   )
 }
