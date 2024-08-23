@@ -10,8 +10,8 @@ export const tables = [
   { name: 'Alyja Kelly', table: 1 },
   { name: 'Sarai DeJesus', table: 1 },
   { name: 'Kaleb Montoya', table: 1 },
-  { name: 'Zachary Lopez', table: 2 },
-  { name: 'Jayden Lopez', table: 2 },
+
+  { name: 'Sharisse Jimenez', table: 2 },
   { name: 'Carmen Yoly Zayas', table: 2 },
   { name: 'Ely Diaz', table: 2 },
   { name: 'Carlos Yuyu Lopez', table: 2 },
@@ -20,8 +20,9 @@ export const tables = [
   { name: 'Lucas Papo DeJesus', table: 2 },
   { name: 'Jaida Lopez', table: 2 },
   { name: 'Xavier Lopez', table: 2 },
+
   { name: 'Mayra DeJesus', table: 3 },
-  { name: 'Orlando Gale Sotomayor', table: 3 },
+  { name: 'Orlando Sotomayor', table: 3 },
   { name: 'Wilson DeJesus', table: 3 },
   { name: 'Tamia Outlaw', table: 3 },
   { name: 'Thomas Mcleod', table: 3 },
@@ -30,16 +31,18 @@ export const tables = [
   { name: 'Betzaida Colon', table: 3 },
   { name: 'Ashley Marie Rivera', table: 3 },
   { name: 'Laidalee Serrano', table: 3 },
+
   { name: 'Migdalia Hernandez', table: 4 },
   { name: 'Angel Velez', table: 4 },
-  { name: 'Chelsie Velez', table: 4 },
-  { name: 'Benny Velez', table: 4 },
+  { name: 'Zachary Lopez', table: 4 },
+  { name: 'Jayden Lopez', table: 4 },
   { name: 'Carlos Lopez', table: 4 },
   { name: 'Kimberly Lopez', table: 4 },
   { name: 'Ana Rodriguez', table: 4 },
   { name: 'Judy Williams', table: 4 },
   { name: 'David Williams', table: 4 },
   { name: 'Edy Solano', table: 4 },
+
   { name: 'Aida Cruz', table: 5 },
   { name: 'Carmen Cruz', table: 5 },
   { name: 'Eddie Reyes', table: 5 },
@@ -50,6 +53,7 @@ export const tables = [
   { name: 'Lena Durham', table: 5 },
   { name: 'Tyant Durham', table: 5 },
   { name: 'Margarita Roman', table: 5 },
+
   { name: 'Ashley Lee Rivera', table: 6 },
   { name: 'Lisa Guzman', table: 6 },
   { name: 'Frankie Rivera', table: 6 },
@@ -60,7 +64,7 @@ export const tables = [
   { name: 'Jovan Cabrera', table: 6 },
   { name: 'Victor Cabrera', table: 6 },
   { name: 'Nayelis Carmona', table: 6 },
-  { name: 'Sharisse Jimenez', table: 6 },
+
   { name: 'William DeJesus', table: 7 },
   { name: 'Becky Carrion', table: 7 },
   { name: 'Tony DeJesus', table: 7 },
@@ -71,6 +75,7 @@ export const tables = [
   { name: 'Natalie Zayas', table: 7 },
   { name: 'Ricardo Rivera', table: 7 },
   { name: 'Rosa Rivera', table: 7 },
+
   { name: 'Angela Rivera', table: 8 },
   { name: 'Lillian Rivera', table: 8 },
   { name: 'Jocelyn Torres', table: 8 },
@@ -81,15 +86,18 @@ export const tables = [
   { name: 'Mayra Lopez', table: 8 },
   { name: 'Madeline Melendez', table: 8 },
   { name: 'Talitha Ortiz', table: 8 },
+
   { name: 'Renee Amoako', table: 9 },
   { name: 'Sam Opoku', table: 9 },
   { name: 'Sonia Wilson', table: 9 },
   { name: 'Demond Wilson', table: 9 },
-  { name: 'Ruben', table: 9 },
   { name: 'Takisha Delgado', table: 9 },
   { name: 'Rachel Conboy', table: 9 },
   { name: 'Ashley Pepin', table: 9 },
   { name: 'Kimberley Roy', table: 9 },
+  { name: 'Gil Melendez', table: 9 },
+  { name: 'Ruben', table: 9 },
+
   { name: 'Rosanna Lipinski', table: 10 },
   { name: 'Gabriel Gordon', table: 10 },
   { name: 'Katherine Lopez', table: 10 },
@@ -98,8 +106,9 @@ export const tables = [
   { name: 'Christopher Anderson', table: 10 },
   { name: 'Kelene Bolden', table: 10 },
   { name: 'Tyrese Bolden', table: 10 },
-  { name: 'Jay White', table: 10 },
-  { name: 'Susan Anderson', table: 10 },
+  { name: 'Rochelle Rivera', table: 10 },
+  { name: 'Jorge Rivera', table: 10 },
+
   { name: 'Jessica Lopez', table: 11 },
   { name: 'Manuel Lopez', table: 11 },
   { name: 'Bernardo Junior Cuascut', table: 11 },
@@ -108,6 +117,6 @@ export const tables = [
   { name: 'Sylvia Jubrey', table: 11 },
   { name: 'Dora Rivera', table: 11 },
   { name: 'Jose Marcano', table: 11 },
-  { name: 'Rochelle Rivera', table: 11 },
-  { name: 'Jorge Rivera', table: 11 }
+  { name: 'Anthony Wint', table: 11 },
+  { name: 'Joey Caraballo', table: 11 }
 ]
