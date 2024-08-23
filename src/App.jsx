@@ -5,6 +5,7 @@ import './App.css'
 import qrCode from './assets/seatLocator.png'
 import './firebase'
 import { Footer } from './components/Footer'
+import { app } from './firebase'
 
 const App = () => {
   const [selectedName, setSelectedName] = useState(null)
@@ -42,12 +43,19 @@ const App = () => {
     fontSize: '1.3em'
   }
 
+  let appStyles = {
+    // make padding less based on width
+
+    padding: '20px',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: '100%'
+  }
+
   return (
-    <div
-      style={{
-        margin: '0 2rem 0 2rem'
-      }}
-    >
+    <div style={appStyles}>
       <Card>
         <Paper elevation={22} style={paperStyles}>
           {selectedName && (
