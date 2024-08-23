@@ -13,7 +13,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+/* 
 a {
   font-weight: 500;
   color: #646cff;
@@ -21,16 +21,16 @@ a {
 }
 a:hover {
   color: #535bf2;
-}
+} */
 
 body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  /* min-width: 320px; */
+  min-height: 100vmax;
 }
-
+/* 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -53,4 +53,12 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+} */
+
+@media (max-height: 750px) {
+  body {
+    transform: scale(0.75);
+    transform-origin: center;
+    height: 100vh;
+  }
 }

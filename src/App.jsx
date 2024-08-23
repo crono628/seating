@@ -13,28 +13,52 @@ const App = () => {
     setSelectedName(newValue)
   }
 
+  const seatedFontStyles = {
+    fontSize: '1.4em'
+  }
+
+  const qrCodeStyles = {
+    maxWidth: '180px',
+    maxHeight: '180px'
+    // margin: '20px'
+  }
+
+  const welcomeStyles = {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    fontSize: '1.3em'
+  }
+
+  const paperStyles = {
+    padding: 20,
+    margin: 30,
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center'
+  }
+
+  const searchStyles = {
+    fontSize: '1.3em'
+  }
+
   return (
-    <>
+    <div
+      style={{
+        margin: '0 2rem 0 2rem'
+      }}
+    >
       <Card>
-        <Paper
-          elevation={22}
-          style={{
-            padding: 20,
-            margin: 30,
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center'
-          }}
-        >
+        <Paper elevation={22} style={paperStyles}>
           {selectedName && (
-            <div>
+            <div style={welcomeStyles}>
               <h2>
                 Welcome, <div>{selectedName.name}</div>
               </h2>
             </div>
           )}
           {!selectedName && (
-            <div>
+            <div style={searchStyles}>
               <p>
                 Please begin typing your name below and <strong>select</strong>{' '}
                 your name to locate your table
@@ -43,21 +67,13 @@ const App = () => {
             </div>
           )}
           {selectedName && (
-            <div>
+            <div style={seatedFontStyles}>
               <p>You are seated at table {selectedName.table}</p>
             </div>
           )}
           {selectedName && (
             <div>
-              <img
-                style={{
-                  width: '160px',
-                  height: '160px',
-                  margin: '20px'
-                }}
-                src={qrCode}
-                alt="Seat Locator"
-              />
+              <img style={qrCodeStyles} src={qrCode} alt="Seat Locator" />
               <p>
                 Share this QR code with others to help them find their table
               </p>
@@ -79,7 +95,7 @@ const App = () => {
         </Paper>
       </Card>
       {/* <Footer /> */}
-    </>
+    </div>
   )
 }
 
